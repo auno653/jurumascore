@@ -75,7 +75,7 @@
                     var str = $("<tr></tr>");
 
                     // Level
-                    $("<td width='5%'><align='center'>" + mark + x + "</align></td>").appendTo(str);
+                    $("<td width='5%'><center>" + mark + x + "</center></td>").appendTo(str);
 
                     // Title
                     $("<td width='35%'>" +
@@ -96,7 +96,7 @@
                 $("</tbody>").appendTo(obj);
 
                 if (obj_sep != null) {
-                    obj_sep.html("<td class='table-dark' style='text-align:center' colspan='4'>" + "<b>" + mark + x +
+                    obj_sep.html("<td class='table-dark' style='text-align:center' colspan='6'>" + "<b>" + mark + x +
                         " (" + count + "譜面)</b></td>");
                 }
             }
